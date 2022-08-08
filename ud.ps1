@@ -10,3 +10,4 @@ choco install openvpn -y
 cd "$env:HOMEDRIVE$Env:HOMEPATH\Downloads"
 Invoke-WebRequest -Uri "https://cloud.colynn.pro/s/8aJDcn3f787BxEM/download/NauSoftPhone-21.8.3.4_ru.msi" -outfile "$env:HOMEDRIVE$Env:HOMEPATH\Downloads\NauSoftPhone-21.8.2.5_ru.msi" 
 .\NauSoftPhone-21.8.2.5_ru.msi /quiet
+choco install microsip -y
